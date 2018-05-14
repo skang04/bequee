@@ -1,0 +1,51 @@
+<html>
+    <head>
+      <title>ABOUT US</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="about.css">
+
+<body>
+<a class="button"><div class="bar"></div></a>
+    <a class="closelink"><div class="bar"></div></a>
+
+<div class="navigation">
+    <span class="home">  <a href = "index.html"> HOME </span></a>
+      <a href = "menu.html"> MENU </a>
+      <a href = "locations.html"> LOCATIONS </a>
+    </div>
+
+<div class="title"> ABOUT US </div>
+
+<div class="about">
+  Best Korean restaurant in San Jose, Beque Korean Grill restaurant in a new plaza off El Camino
+  in Santa Clara’s K-town. We were grand opening 2007 full weekend of March. Very sleek and upscale place
+   that provides quick and friendly servers. Welcome to ask us if anything else is needed so often that
+   you feel bad but not uncomfortable. The tables are granite, the bathrooms have modern kohler sinks, the gas
+    grills have downward sucking vacuums, side dishes come out on long dishes, and rice is served by the potful.
+   The food was surprisingly good! The prices are not bad for a BBQ place and the servings were not stingy.
+   We hope our quality of service and food stays consistent – something most new Korean restaurants fail to achieve
+    over the course of a year after opening. Beque Korean Grill is a very clean and upscale Korean restaurant, which
+     reminds me of places in LA or Seoul. Refreshing after going to BBQ places that seem old fashioned and country in
+      the area. Service is a noticeable plus.</div>
+
+    </body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+  $(".button").click(function(){
+    $(".navigation").toggleClass("open");
+    $(this).toggleClass("active");
+  });
+
+  $(".closelink").click(function(){
+    $(".navigation").toggleClass("open");
+  });
+
+});
+</script>

@@ -1,0 +1,75 @@
+<html>
+    <head>
+      <title>LOCATIONS</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="about.css">
+      <link rel="stylesheet" type="text/css" href="locations.css">
+
+<body>
+<a class="button"><div class="bar"></div></a>
+    <a class="closelink"><div class="bar"></div></a>
+
+<div class="navigation">
+    <span class="home">  <a href = "index.html"> HOME </span></a>
+      <a href = "menu.html"> MENU </a>
+      <a href = "locations.html"> LOCATIONS </a>
+    </div>
+
+
+
+<div class="title"> LOCATIONS </div>
+
+
+<div class="locations">
+<div class="container">
+<div class="type">SAN FRANCISCO</div>
+<p>1582 WEBSTER ST. #145
+<br>SAN FRANCISCO, CA 94115</p>
+<p>PHONE NUMBER
+<br>(415) 872-9868</p>
+<p>HOURS
+<br>11:30am ~ 12:00am </p> </div>
+
+
+<div class="container">
+<div class="type">SANTA CLARA</div>
+<p>3060 EL CAMINO REAL
+<br>SANTA CLARA, CA 95051</p>
+<p>PHONE NUMBER
+<br>(408) 260-2727</p>
+<p>HOURS
+<br>11:00am ~ 1:00am </p></div>
+
+
+<div class="container">
+<div class="type">NEWARK</div>
+<p>39055 CEDAR BLVD #198
+<br>NEWARK, CA 94560</p>
+<p>PHONE NUMBER
+<br>(510) 797-0779</p>
+<p>HOURS
+<br>11am ~ 3pm , 5pm~ 9:30pm
+<br>CLOSED ON TUESDAYS </p></div></div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+  $(".button").click(function(){
+    $(".navigation").toggleClass("open");
+    $(this).toggleClass("active");
+  });
+
+  $(".closelink").click(function(){
+    $(".navigation").toggleClass("open");
+  });
+
+});
+</script>

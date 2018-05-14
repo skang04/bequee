@@ -1,0 +1,37 @@
+body, html{
+  background: linear-gradient(126deg, #0f0f0f, #3d3d3d);
+}
+
+
+.locations {
+  max-width: 1200px;
+  font-size: 24px;
+  color:white;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex:1;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+}
+
+.type {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.container {
+  width: 20%;
+  margin: 3%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+
+}

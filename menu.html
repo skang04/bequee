@@ -1,0 +1,148 @@
+<html>
+    <head>
+      <title>MENU</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
+
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="about.css">
+      <link rel="stylesheet" type="text/css" href="menu.css">
+
+<body>
+<a class="button"><div class="bar"></div></a>
+    <a class="closelink"><div class="bar"></div></a>
+
+<div class="navigation">
+    <span class="home">  <a href = "index.html"> HOME </span></a>
+      <a href = "menu.html"> MENU </a>
+      <a href = "locations.html"> LOCATIONS </a>
+    </div>
+
+<div class="title"> MENU </div>
+
+<div class="header"> <span class="padding"> ALL YOU CAN EAT</span></div>
+
+<div class="ayce">
+<div class="lunch">
+<div class="type">LUNCH 15.99</div>
+<p>RIB EYE BEEF
+<br>PORK BELLY
+<br>HOUSE MARINATED PORK
+<br>SPICY CHICKEN
+<br>BBQ CHICKEN</p></div>
+
+<div class="lunch">
+<div class="type">DINNER 21.99</div>
+<p>RIB EYE BEEF
+<br>SPICY RIB EYE BEEF
+<br>BRISKET
+<br>PORK BELLY
+<br>GARLIC PORK BELLY
+<br>SPICY PORK
+<br>HOUSE MARINATED PORK
+<br>SPICY CHICKEN
+<br>BBQ CHICKEN
+<br>SHRIMP
+<br>SQUID</p></div>
+
+<div class="lunch">
+<div class="type">COMPLEMENTARY ITEMS</div>
+<p>LETTUCE
+<br>STEAMED WHITE RICE
+<br>RICE PAPER
+<br>GARLIC
+<br>JALAPENO
+<br>BEAN PASTE
+<br>KOREAN HOT SAUCE
+<br>PINEAPPLE HOT SAUCE
+<br>SIRACHA
+<br>HOUSE SAUCE<p></div>
+
+<div class="lunch">
+<div class="type">ADD ONS: CHARGED PER PLATE</div>
+<p>SHORT RIBS ($8)
+<br>BEEF BRISKET ($5)
+<br>STEAMED EGG ($5)
+<br>KIMCHI SOUP ($5)
+<br>TOFU SOUP ($5)
+<br>BEAN PASTE SOUP ($5)</p></div>
+
+
+<div class="header"> <span class="padding"> A LA CARTE </span> </div>
+
+<div class="appetizers">
+<div class="type"> APPETIZERS </div>
+<p>PA JEON PANCAKE ($14.99)
+<br>PAN FRIED DUMPLINGS ($5.99)
+<br>STEAMED DUMPLINGS ($5.99)
+<br>KIMCHI FRIED RICE ($9.99)
+<br>DDUK BOKKI RICE CAKES ($10.99)</p>
+
+<div class="type"> <span class="padding"> DINNER BIBIMBAP </span> </div>
+<p>SHORT RIBS BIBIMBAP ($15.99)
+<br>RIB EYE BEEF BULGOGI BIBIMBAP ($13.99)
+<br>BBQ CHICKEN BIBIMBAP ($13.99)
+<br>SPICY PORK BIBIMBAP ($13.99)
+<br>VEGETARIAN BIBIMBAP ($13.99)
+<br>KIMCHI BIBIMBAP ($13.99)</p>
+
+<div class="type"> <span class="padding"> BBQ PLATES </span> </div>
+<p>SHORT RIBS - (L:15.99) (D:$29)
+<br>RIB EYE BEEF BULGOGI ($25)
+<br>SPICY BEEF BULGOGI ($25)
+<br>PORK BELLY ($22)
+<br>GARLIC PORK BELLY ($22)
+<br>SPICY PORK ($22)
+<br>HOUSE MARINATED PORK ($22)
+<br>BBQ CHICKEN ($22)
+<br>SPICY CHICKEN ($22)</p></div>
+
+
+<div class="drinks">
+<div class="appetizers">
+<div class="type"> DRINKS </div>
+<p>SOJU TOWER ($39.00)
+<span class="subtitles"><br>PEACH, MANGO, PASSIONFRUIT, LEMONADE, STRAWBERRY, YOGURT</p></span>
+<p>COCKTAIL SOJU ($15.00)
+<span class="subtitles"><br>PEACH, MANGO, PASSIONFRUIT, LEMONADE, STRAWBERRY, YOGURT</p></span>
+<p>BEER TOWER ($25.00)
+<span class="subtitles"><br>OB, HITE</p></span>
+<p>PITCHER SIZED BEER ($18.00)
+<span class="subtitles"><br>OB, HITE</p></span>
+<p>BOTTLED BEER ($7.00)
+<span class="subtitles"><br>OB, HITE</p></span>
+<p>BOK BUN JA JU ($15.00)
+<span class="subtitles"><br>KOREAN FERMENTED BLACK RASPBERRY WINE</p></span>
+<p>SOJU ($8.99)
+<span class="subtitles"><br>CLASSIC, FRESH, PEACH, GRAPEFRUIT, PINEAPPLE</p></span>
+<p>APPLE JUICE ($2.50)</p>
+<p>CANNED SODA ($2.00)
+<span class="subtitles"><br>COKE, SPRITE, ROOT BEER, DIET COKE</p></span>
+
+<div class="type"> <span class="padding"> TOFU SOUP </span> </div>
+<p>SEAFOOD SOUP ($12.99)
+<br><span class="subtitles"> SPICINESS: NONE, MILD, SPICY, X-TRA SPICY</p>
+<p>BEEF SOUP ($12.99)
+<br><span class="subtitles"> SPICINESS: NONE, MILD, SPICY, X-TRA SPICY<p>
+<p>VEGETABLE SOUP ($12.99)
+<br><span class="subtitles"> SPICINESS: NONE, MILD, SPICY, X-TRA SPICY</span></p></div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+  $(".button").click(function(){
+    $(".navigation").toggleClass("open");
+    $(this).toggleClass("active");
+  });
+
+  $(".closelink").click(function(){
+    $(".navigation").toggleClass("open");
+  });
+
+});
+</script>

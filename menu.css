@@ -1,0 +1,71 @@
+body, html{
+  background: linear-gradient(126deg, #0f0f0f, #3d3d3d);
+}
+
+.header {
+  width: 100%;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+.padding {
+  display:flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.ayce p {
+  font-size: 20px;
+}
+
+.type {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.ayce {
+  max-width: 1000px;
+  font-size: 24px;
+  color:white;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex:1;
+  flex-wrap:wrap;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.lunch {
+  width: 40%;
+  margin: 1%;
+}
+
+.appetizers {
+  width: 40%;
+  padding-top: 40px;
+  margin: 2%;
+  justify-content: center;
+}
+
+.drinks {
+display: flex;
+width: 56%;
+color: white;
+justify-content: center;
+
+}
+
+.subtitles {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
